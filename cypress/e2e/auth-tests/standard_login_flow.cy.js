@@ -11,7 +11,7 @@ describe('Standardization: Auth Module', () => {
     cy.get('[data-test="password"]').type('secret_sauce')
     cy.get('[data-test="login-button"]').click()
 
-    // 3. Assert: Verify the outcome (Crucial for US-based team standards)
+    // 3. Assert: Verify the outcome
     // We check the URL and a specific element on the landing page
     cy.url().should('include', '/inventory.html')
     cy.get('.title').should('be.visible').and('have.text', 'Products')
