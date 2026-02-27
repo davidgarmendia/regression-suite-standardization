@@ -2,12 +2,10 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    // Enables the visual recording tool (Cypress Studio)
-    experimentalStudio: true, 
-    // Set the starting URL for all tests to simplify navigation
-    baseUrl: 'https://www.saucedemo.com/', 
+    baseUrl: 'https://www.saucedemo.com/',
+    experimentalStudio: true, // Double check it is inside the e2e object
     setupNodeEvents(on, config) {
-      // Future integration for reporting and custom plugins
+      // implement node event listeners here
     },
   },
 });
