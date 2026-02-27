@@ -1,5 +1,7 @@
 Regression Suite Automation and Optimization
+
 Project Overview
+
 This repository serves as a professional demonstration of how a manual regression suite can be standardized and optimized through automation. By utilizing Cypress, the project transitions from time-consuming manual checks to a reliable, scalable, and fast automated pipeline.
 
 The goal is to provide a Source of Truth for the application health, ensuring that core business flows such as Authentication and Cart Management remain functional after every deployment.
